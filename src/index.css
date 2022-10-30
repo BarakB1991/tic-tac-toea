@@ -29,6 +29,28 @@ body {
   top: 0;
 }
 
+.disabled .button {
+  cursor: default;
+}
+
+.disabled .button:hover {
+  top: 0;
+  background: #fff;
+  color: #a2ff15;
+  box-shadow: 0 12px #b1dc15, 0 14px rgba(0, 0, 0, 0.4);
+}
+
+.button.disabled {
+  cursor: default;
+}
+
+.button.disabled:hover {
+  top: 0;
+  background: #fff;
+  color: #a2ff15;
+  box-shadow: 0 12px #b1dc15, 0 14px rgba(0, 0, 0, 0.4);
+}
+
 .button:hover {
   background-color: #a2ff15;
   color: #1f9;
